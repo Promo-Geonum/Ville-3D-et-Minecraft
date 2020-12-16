@@ -1,21 +1,21 @@
 # Ville-3D-et-Minecraft
 [<img width="400" alt="Minecraft" src="img/minecraft.jpg">](https://www.minecraft.net/fr-fr)
 
-[minecraft à la carte](https://minecraft.ign.fr/#)
+Il existe plusieurs possibilités pour importer des données 3d dans le jeu Minecraft (ou dans sa version libre [minetest](https://www.minetest.net/))
 
-[minetest](https://www.minetest.net/)
-Pour pouvoir utiliser minecraft à la carte il faut bien faire attention à la version que ce soit pour minecraft ou minetest.
-La version supportée de minetest est disponible ici : [minetest_04.16](https://github.com/minetest/minetest/releases/tag/0.4.16)
+Nous allons ici en passer quelques unes en revue.
 
-Une autre possibilité semble exister pour minetest : [cartOSM](https://framagit.org/marpa/cartosm-ign)
+## Table des matières
+1.[Minecraft à la carte](#Minecraft à la carte)
+2.[Worldpainter](#Worldpainter)
+3.[Fichier Schematic](#fichier schematic)
 
-tutoriel d'utilisation de minecraft à la craft : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
+## Minecraft à la carte
 
-[Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
-
-générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
-
-## Tutoriel pour convertir un fichier .obj en schematic dans minecraft :
+## Worldpainter
+-----------------
+## fichier schematic
+## Tutoriel pour convertir un fichier .obj en .schematic (utilisable dans minecraft):
 
 A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus bas. Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
 
@@ -29,7 +29,7 @@ Comme il s'agit d'une archive, il suffit de la télécharger puis de la dézipp�
 
     cd C:/Users/bruno/Desktop/vox_package
 
-#### Première étape : la voxélisation
+#### La voxélisation
 
 L'exécutable binvox permet de voxéliser un fichier depuis plusieurs types de format : Wavefront OBJ, VRML 2.0, UG, OFF, DXF, XGL, POV, BREP, PLY, JOT. Dans la documentation, le format .obj semble le plus approprié pour cette opération.
 
@@ -49,9 +49,38 @@ En fonction de la taille, cela peut être plus ou moins long (plus de 25 min dan
 
 [<img width="250" alt="binvox" src="img/fin_binvox.png">]
 
-créé un fichier binvox qu'il est possible de voir avec la commande : 
+La commande a créé un fichier binvox qu'il est possible de voir avec viewvox en lançant la commande : 
 
     viewvox {nom_fichier.binvox}
 
-[Tutoriel](https://minecraft.fr/forum/threads/convertir-un-fichier-obj-en-schematic-cest-possible.114445/) (qui date de 2015 donc peut-être obsolète) 
-Extension [binvox](https://minecraft.gamepedia.com/Programs_and_editors/Binvox) pour voxeliser des fichiers .obj
+La visionneuse se présente ainsi : 
+
+[<img width = "250" alt ="viewvox" src="img/viewvox.png">]
+
+Nous pouvons qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
+
+Ces deux opérations permettent d'affiner la voxélisation, en effet il y a plusieurs paramètres sur lesquels il est possible de jouer, notamment sur le nombre de cube générés ce qui déterminera la finesse de la figure finale. Ces paramètres sont détaillés dans le wiki cité ci-dessus.
+
+Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le fichier .schematic avec la commande suivante :
+
+    binvox {nom_fichier.obj} {parametre_1} {parametre_2} -t schematic
+
+Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
+
+-----------------------
+
+## Bibliographie
+
+[minecraft à la carte](https://minecraft.ign.fr/#)
+
+
+Pour pouvoir utiliser minecraft à la carte il faut bien faire attention à la version que ce soit pour minecraft ou minetest.
+La version supportée de minetest est disponible ici : [minetest_04.16](https://github.com/minetest/minetest/releases/tag/0.4.16)
+
+Une autre possibilité semble exister pour minetest : [cartOSM](https://framagit.org/marpa/cartosm-ign)
+
+tutoriel d'utilisation de minecraft à la craft : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
+
+[Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
+
+générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
