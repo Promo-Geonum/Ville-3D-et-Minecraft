@@ -7,7 +7,7 @@ Nous allons ici en passer quelques unes en revue.
 
 ## Table des matières
 
-[Minecraft](#Minecraft à la carte)
+[Minecraft](#Minecraft_à_la carte)
 
 [Worldpainter](#Worldpainter)
 
@@ -15,13 +15,13 @@ Nous allons ici en passer quelques unes en revue.
 
 [Voxélisation](#Voxélisation)
 
-[MCEdit](#Import de fichiers schematic avec MCEdit)
+[MCEdit](#Import_de_fichiers_schematic_avec_MCEdit)
 
 [Bibliographie](#Bibliographie)
 
 -----------------
 
-## Minecraft à la carte
+## Minecraft_à_la carte
 
 -----------------
 
@@ -84,11 +84,11 @@ Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le
 
 Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
 
-Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import de fichiers schematic avec MCEdit)
+Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import_de_fichiers_schematic_avec_MCEdit)
 
 -----------------------
 
-## Import de fichiers schematic avec MCEdit
+## Import_de_fichiers_schematic_avec_MCEdit
 
 ## Bibliographie
 
