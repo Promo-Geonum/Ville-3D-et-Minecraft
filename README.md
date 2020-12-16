@@ -6,16 +6,33 @@ Il existe plusieurs possibilités pour importer des données 3d dans le jeu Mine
 Nous allons ici en passer quelques unes en revue.
 
 ## Table des matières
-1.[Minecraft à la carte](#Minecraft à la carte)
-2.[Worldpainter](#Worldpainter)
-3.[Fichier Schematic](#fichier schematic)
+
+[Minecraft](#Minecraft à la carte)
+
+[Worldpainter](#Worldpainter)
+
+[Tinkercad](#Tinkercad)
+
+[Voxélisation](#Voxélisation)
+
+[MCEdit](#Import de fichiers schematic avec MCEdit)
+
+[Bibliographie](#Bibliographie)
+
+-----------------
 
 ## Minecraft à la carte
 
+-----------------
+
 ## Worldpainter
 -----------------
-## fichier schematic
-## Tutoriel pour convertir un fichier .obj en .schematic (utilisable dans minecraft):
+
+## Tinkercad
+
+-----------------
+
+## Voxélisation
 
 A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus bas. Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
 
@@ -67,7 +84,11 @@ Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le
 
 Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
 
+Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import de fichiers schematic avec MCEdit)
+
 -----------------------
+
+## Import de fichiers schematic avec MCEdit
 
 ## Bibliographie
 
