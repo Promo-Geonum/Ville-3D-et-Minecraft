@@ -13,3 +13,7 @@ tutoriel d'utilisation de minecraft à la craft : [tutoriel](https://www.wikideb
 [Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
 
 générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
+
+** Tutoriel pour convertir un fichier .obj en schematic dans minecraft :
+[Turoriel](https://minecraft.fr/forum/threads/convertir-un-fichier-obj-en-schematic-cest-possible.114445/) (qui date de 2015 donc peut-être obsolète) 
+Extension [binvox](https://minecraft.gamepedia.com/Programs_and_editors/Binvox) pour voxeliser des fichiers .obj
