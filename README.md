@@ -7,7 +7,7 @@ Nous allons ici en passer quelques unes en revue.
 
 ## Table des matières
 
-[Minecraft](#Minecraft_à_la carte)
+[Minecraft](#Minecraft_a_la carte)
 
 [Worldpainter](#Worldpainter)
 
@@ -21,7 +21,7 @@ Nous allons ici en passer quelques unes en revue.
 
 -----------------
 
-## Minecraft_à_la carte
+## Minecraft_a_la carte
 
 -----------------
 
