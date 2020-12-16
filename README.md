@@ -47,7 +47,7 @@ La commande se lance, le fichier .obj est parcouru :
 
 En fonction de la taille, cela peut être plus ou moins long (plus de 25 min dans le cas du fichier Poleymieux terrain complet), dans le cas d'un petit fichier, à la fin du traitement nous apercevons furtivement le résultat du traitement :
 
-[<img width="400" alt="binvox" src="img/fin_binvox.png">]
+[<img width="250" alt="binvox" src="img/fin_binvox.png">]
 
 créé un fichier binvox qu'il est possible de voir avec la commande : 
 
