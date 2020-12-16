@@ -1,3 +1,5 @@
+[<img width="400" alt="Minecraft" src="img/minecraft.jpg">](https://www.minecraft.net/fr-fr)
+
 # Ville-3D-et-Minecraft
 
 [minecraft à la carte](https://minecraft.ign.fr/#)
