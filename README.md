@@ -1,5 +1,5 @@
 # Ville-3D-et-Minecraft
-[<img width="400" alt="Minecraft" src="img/minecraft.jpg">](https://www.minecraft.net/fr-fr)
+[<img width="250" alt="Minecraft" src="img/minecraft.jpg">](https://www.minecraft.net/fr-fr)
 
 Il existe plusieurs possibilités pour importer des données 3d dans le jeu Minecraft (ou dans sa version libre [minetest](https://www.minetest.net/))
 
@@ -24,6 +24,37 @@ Cliquer sur les liens ci-dessous pour accéder à la section
 -----------------
 
 ## Minecraft_a_la carte
+
+### Site de l'IGN
+
+[<img width="250" alt="Minecraft_site_internet" src="img/minecraft_a_la_carte.png">](https://minecraft.ign.fr/#) L'IGN propose un service qui permet de générer une carte lisible par le jeu Minecraft ou sa version gratuite Minetest à partir d'une emprise d'un maximum de 5km par 5km. 
+Le site de l'IGN est accessible en cliquant sur l'image ci-contre ou avec ce [lien](https://minecraft.ign.fr/#).
+
+La carte va être générer en fonction des données capitalisées par l'IGN et permet de retrouver la topographie du site ainsi que les bâtiments, cependant ceux-ci se ressemblent tous et il est nécessaire de prendre du recul pour bien voir reconnaître les lieux.
+
+### Créer la carte
+
+La première étape consiste à définir l'emprise de sélection des données : tout se passe dans l'onglet à gauche du site internet :
+
+[<img width="250" alt="minecraft_emprise" src="img/minecraft_emprise.png">]
+
+Il existe deux possibilités pour créer cette emprise, soit en renseignant une adresse, soit en utilisant l'option *par centrage* qui permet de positionner un axe xy sur la carte. Le centre de la carte étant défini, il faut maintenant rentrer les quelques options disponibles.
+
+La première d'entre elle étant la plateforme sur laquelle se trouve le jeu (Windows 10, Linux, Mac ou encore Xbox...). Cette option sélectionnée ouvre la suivante, c'est à dire le format du jeu (c'est ici que l'on peut choisir le format minetest par exemple).
+
+Ensuite des réglages avancés sont disponibles, c'est ici notamment que l'on peut régler la taille de l'emprise souhaitée.
+
+[<img width="250" alt="Minecraft_taille" src="img/minecraft_taille.png">]
+
+Il faut renseigner son mail, puis cliquer sur générer la carte, il y a un nombre limité de génération de cartes par jour pour l'ensemble des utilisateurs, si le compteur est à zéro, il faudra retenter sa chance le lendemain. De même, une seule carte par adresse mail par jour.
+
+### Récupérer la carte et mettre le dossier au bon endroit
+
+La carte est générée en plus en mois longtemps en fonction de l'emprise qui a été choisi. Elle est adressée par mail, il suffit de cliquer sur le lien pour télécharger le fichier zip (attention, le lien n'est valable que 72h).
+
+L'étape suivante est assez simple il faut décompresser le fichier récupérer le dossier *_alac. C'est dans ce dossier que se trouve les fichiers qui vont permettrent de construire la carte.
+
+Ce dossier doit simplement être déplacé au bon endroit en fonction du format choisi.
 
 -----------------
 
