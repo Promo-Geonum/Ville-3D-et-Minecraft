@@ -54,7 +54,29 @@ La carte est générée en plus en mois longtemps en fonction de l'emprise qui a
 
 L'étape suivante est assez simple il faut décompresser le fichier récupérer le dossier *_alac. C'est dans ce dossier que se trouve les fichiers qui vont permettrent de construire la carte.
 
-Ce dossier doit simplement être déplacé au bon endroit en fonction du format choisi.
+Ce dossier doit simplement être déplacé au bon endroit en fonction du format choisi : 
+
+* Dans le cas de Minecraft c'est par défaut dans le dossier : C: / Utilisateur / "Nom utilisateur" / AppData / Roaming / .minecraft / saves. 
+C'est donc dans le répertoire *saves* qu'il faut copier le dossier *_alac
+
+* Dans le cas de Minetest : C:\Program Files (x86)\minetest-*version*\worlds
+C'est donc dans le répertoire *worlds* qu'il faut copier le dossier *_alac
+
+### Jouer dans le monde créé avec minecraft à la carte
+
+Enfin la dernière étape pour retrouver le monde créé, il suffit de lancer le jeu et de sélectionner le monde par exemple dans le cas de minetest :
+
+[<img width="500" alt="Minecraft_menu" src="img/minetest_menu.png">]
+
+Dans ce cas nous avons créé un monde en sélectionnant l'emprise du campus de Bron.
+
+Nous pouvons constater sur la figure suivante que le monde généré ne correspond pas complètement à la réalité, sur l'image nous voyons le bâtiment E. L'IGN ne possède que l'emprise au sol des bâtiments, le résultat nous montre que les trois amphis avec leur forme circulaire et la partie nord du bâtiment.
+
+[<img width="500" alt="Minecraft_batE" src="img/minetest_batE.png">]
+
+Ceci étant dit, minecraft à la carte permet de générer facilement l'emprise d'un territoire existant et de s'en servir de base pour reproduire le plus fidèlement possible l'environnement. 
+
+Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 -----------------
 
@@ -77,7 +99,7 @@ A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic]
 
 Comme il s'agit d'une archive, il suffit de la télécharger puis de la dézippé à l'endroit souhaité. Pour utiliser au mieux les fonctions proposé par les deux exécutables, la ligne de commande est le plus simple, il faut donc pouvoir retrouver son dossier avec l'archive de la façon le plus simple possible. Dans l'exemple ci-dessous, le dossier se situe sur le bureau :
 
-    cd C:/Users/bruno/Desktop/vox_package
+    cd C:/Users/"utilisateurs"/Desktop/vox_package
 
 #### La voxélisation
 
@@ -133,7 +155,7 @@ La version supportée de minetest est disponible ici : [minetest_04.16](https://
 
 Une autre possibilité semble exister pour minetest : [cartOSM](https://framagit.org/marpa/cartosm-ign)
 
-tutoriel d'utilisation de minecraft à la craft : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
+tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
 
 [Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
 
