@@ -36,7 +36,7 @@ La carte va être générer en fonction des données capitalisées par l'IGN et 
 
 La première étape consiste à définir l'emprise de sélection des données : tout se passe dans l'onglet à gauche du site internet :
 
-[<img width="250" alt="minecraft_emprise" src="img/minecraft_emprise.png">]
+<img width="250" alt="minecraft_emprise" src="img/minecraft_emprise.png">
 
 Il existe deux possibilités pour créer cette emprise, soit en renseignant une adresse, soit en utilisant l'option *par centrage* qui permet de positionner un axe xy sur la carte. Le centre de la carte étant défini, il faut maintenant rentrer les quelques options disponibles.
 
@@ -44,7 +44,7 @@ La première d'entre elle étant la plateforme sur laquelle se trouve le jeu (Wi
 
 Ensuite des réglages avancés sont disponibles, c'est ici notamment que l'on peut régler la taille de l'emprise souhaitée.
 
-[<img width="250" alt="Minecraft_taille" src="img/minecraft_taille.png">]
+<img width="250" alt="Minecraft_taille" src="img/minecraft_taille.png">
 
 Il faut renseigner son mail, puis cliquer sur générer la carte, il y a un nombre limité de génération de cartes par jour pour l'ensemble des utilisateurs, si le compteur est à zéro, il faudra retenter sa chance le lendemain. De même, une seule carte par adresse mail par jour.
 
@@ -66,13 +66,13 @@ C'est donc dans le répertoire *worlds* qu'il faut copier le dossier *_alac
 
 Enfin la dernière étape pour retrouver le monde créé, il suffit de lancer le jeu et de sélectionner le monde par exemple dans le cas de minetest :
 
-[<img width="500" alt="Minecraft_menu" src="img/minetest_menu.png">]
+<img width="500" alt="Minecraft_menu" src="img/minetest_menu.png">
 
 Dans ce cas nous avons créé un monde en sélectionnant l'emprise du campus de Bron.
 
 Nous pouvons constater sur la figure suivante que le monde généré ne correspond pas complètement à la réalité, sur l'image nous voyons le bâtiment E. L'IGN ne possède que l'emprise au sol des bâtiments, le résultat nous montre que les trois amphis avec leur forme circulaire et la partie nord du bâtiment.
 
-[<img width="500" alt="Minecraft_batE" src="img/minetest_batE.png">]
+<img width="500" alt="Minecraft_batE" src="img/minetest_batE.png">
 
 Ceci étant dit, minecraft à la carte permet de générer facilement l'emprise d'un territoire existant et de s'en servir de base pour reproduire le plus fidèlement possible l'environnement. 
 
