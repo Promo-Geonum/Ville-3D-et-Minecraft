@@ -85,7 +85,7 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 ## Tinkercad
 
-Tinkercad est un logiciel en SAAS qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
+Tinkercad est un logiciel en SAAS édité par Autodesk qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
 
 C'est un logiciel qui est assez simple d'utilisation, il existe plusieurs tutoriels sur internet pour le prendre en main. Le lien suivant est une vidéo youtube pour construire une maison : [tuto maison](https://www.youtube.com/watch?v=3LVAEuAWW_M).
 
