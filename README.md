@@ -85,6 +85,33 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 ## Tinkercad
 
+Tinkercad est un logiciel en SAAS qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
+
+C'est un logiciel qui est assez simple d'utilisation, il existe plusieurs tutoriels sur internet pour le prendre en main. Le lien suivant est une vidéo youtube pour construire une maison : [tuto maison](https://www.youtube.com/watch?v=3LVAEuAWW_M).
+
+Nous avons réalisé une forme de bâtiment très simple pour montrer le résultat : 
+
+<img width ="500" alt="tinkercad_3D" src = "img/tinkercad_3d.png">
+
+Tinkercad permet de visualiser le résultat de la modélisation transformé en bloc en cliquant sur l'icone suivante (à noter qu'il permet aussi la visualisation en briques légo) : 
+
+<img width ="125" alt="tinkercad_bloc" src = "img/tinkercad_bloc.png">
+
+Le résultats est le suivant : 
+
+<img width ="500" alt="tinkercad_briques" src = "img/tinkercad_briques.png">
+
+Il est possible de choisir le détail de la modélisation avec plus ou moins de bloc, donc plus ou moins de précision dans la représentation du bâtiment.
+
+Une fois la construction du modèle 3d réalisé, il faut exporter le bâtiment au format voulu. Quand l'utilisateur est dans le mode conception 3d, il peut choisir plusieurs formats d'exports dont *.obj* et *.svg* ou choisir directement un modèle d'imprimante 3d.
+Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#Import_de_fichiers_schematic_avec_MCEdit).
+
+<img width ="250" alt="tinkercad_export" src = "img/tinkercad_export.png">
+
+Cette solution permet de créer facilement des bâtiments et de les exporter dans un format qui est exploitable avec Minecraft, nous pouvons imaginer que combiné avec la création d'une carte depuis une emprise avec Minecraft à la carte, il peut être facile de reproduire l'environnement d'une ville avec ses bâtiments remarquables par exemple.
+
+Ce n'est cependant pas la seule solution et nous allons voir dans la section suivante comment créer des fichiers schematic à partir de fichier *.obj*.
+
 -----------------
 
 ## Voxélisation
