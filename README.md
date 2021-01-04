@@ -86,7 +86,7 @@ World painter est un logiciel de génération de monde minecraft. Il se présent
 
 A télécharger cliquant sur le lien suivant : [WorldPainter](https://www.worldpainter.net/)
 
-<img width="500" alt="Interface_WorldPainter" src='img/Interface_WorldPainter.PNG">
+<img width="500" alt="Interface_WorldPainter" src="img/Interface_WorldPainter.PNG">
 
 World painter permet notamment d'importer des images laissant ainsi la possibilité d'importer des MNT (Modèle Numérique de Terrain) : menu "Edit" --> Import --> Height Map into current dimension
 
