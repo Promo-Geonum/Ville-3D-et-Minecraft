@@ -81,6 +81,18 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 -----------------
 
 ## Worldpainter
+
+World painter est un logiciel de génération de monde minecraft. Il se présente comme un outil permettant de "dessiner son monde" comme sur Paint.
+
+A télécharger cliquant sur le lien suivant : [WorldPainter](https://www.worldpainter.net/)
+
+<img width="500" alt="Interface_WorldPainter" src='img/Interface_WorldPainter.PNG">
+
+World painter permet notamment d'importer des images laissant ainsi la possibilité d'importer des MNT (Modèle Numérique de Terrain) : menu "Edit" --> Import --> Height Map into current dimension
+
+<img width="500" alt="ImportHeightMapWP" src="img/ImportHeightMapWP.PNG">
+
+Une fois cette fenêtre ouverte, il faut ouvrir son MNT et paramétrer l'import dans World painter, en jouant sur l'échelle (Scale : à 100% par défaut ce qui signifie 1 pixel de l'image du MNT = 1 cube dans le jeu) et également sur le niveau de l'eau (Water Level)
 -----------------
 
 ## Tinkercad
