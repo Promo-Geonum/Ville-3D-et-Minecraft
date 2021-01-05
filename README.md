@@ -78,6 +78,8 @@ Ceci étant dit, minecraft à la carte permet de générer facilement l'emprise 
 
 Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
+<img width="500" alt="MC_ALAC_Lyon" src="img/MC_ALAC_Lyon.png">
+
 -----------------
 
 ## Worldpainter <a name="worldpainter"></a>
@@ -106,6 +108,10 @@ Pour paramétrer l'export, il faut d'abord lui donner un nom (Ce sera le nom du 
 <img width="500" alt="ExportWP" src="img/ExportWP.PNG">
 
 Il est important de ne pas modifier le chemin d'enregistrement de l'export, il est paramétré par défaut pour s'exporter au bon endroit.
+
+Le résultat dans Minecraft :
+
+<img width="500" alt="WorldPainterFourviere" src="img/WorldPainterFourviere.png">
 
 -----------------
 
@@ -197,6 +203,32 @@ Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft i
 -----------------------
 
 ## Import_de_fichiers_schematic_avec_MCEdit <a name="mcedit"></a>
+
+MC Edit est un editeur pour monde minecraft : [MCEdit](http://www.mcedit.net/)
+
+Il permet de modifier un monde déjà existant dans Minecraft
+
+<img width="500" alt="MC_EditImportMonde" src="img/MC_EditImportMonde.PNG">
+
+MC Edit permet notamment l'import de fichier au format ".schemactic" ce qui nous intéresse tout particulièrement pour importer les fichiers .obj voxelisé avec la méthode présenté dans la section précédente
+
+<img width="500" alt="MC_EditImportSchematics" src="img/MC_EditImportSchematics.PNG">
+
+Le résultat de l'import est souvent dans le mauvais sens, un ensemble d'outils permettent de régler ces soucis
+
+<img width="500" alt="MC_EditImportSchematicsResult" src="img/MC_EditImportSchematicsResult.PNG">
+
+<img width="500" alt="MC_EditChevalierSchematicsResult" src="img/MC_EditChevalierSchematicsResult.PNG">
+
+Sur ces images, il ne s'agit pas d'une voxelisation d'un fichier .obj représentant un élément géographique. Pour obtenir un résultat satisfaisant, il faut que l'objet à importer soit suffisament détaillé.
+
+Il est important de noter que Minecraft dispose d'un système de coordonnées ainsi les élements peuvent être déplacé en conséquence.
+
+Pour importer réellement notre objet dans le monde minecraft choisi, il faut cliquer sur Confirm (en bas de l'image ci-dessus) puis sauvegarder.
+
+Voici le résultat dans Minecraft :
+
+<img width="500" alt="ChevalierImportMinecraft" src="img/ChevalierImportMinecraft.PNG">
 
 ## Bibliographie <a name="bibliographie"></a>
 
