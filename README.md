@@ -25,14 +25,14 @@ Cliquer sur les liens ci-dessous pour accéder à la section
 
 -----------------
 
-## Minecraft_a_la carte <a name="minecraft_carte"></a>
+## Minecraft à la carte <a name="minecraft_carte"></a>
 
 ### Site de l'IGN
 
 [<img width="250" alt="Minecraft_site_internet" src="img/minecraft_a_la_carte.png">](https://minecraft.ign.fr/#) L'IGN propose un service qui permet de générer une carte lisible par le jeu Minecraft ou sa version gratuite Minetest à partir d'une emprise d'un maximum de 5km par 5km. 
 Le site de l'IGN est accessible en cliquant sur l'image ci-contre ou avec ce [lien](https://minecraft.ign.fr/#).
 
-La carte va être générer en fonction des données capitalisées par l'IGN et permet de retrouver la topographie du site ainsi que les bâtiments, cependant ceux-ci se ressemblent tous et il est nécessaire de prendre du recul pour bien voir reconnaître les lieux.
+La carte va être générée en fonction des données capitalisées par l'IGN et permet de retrouver la topographie du site ainsi que les bâtiments, cependant ceux-ci se ressemblent tous et il est nécessaire de prendre du recul pour bien reconnaître les lieux.
 
 ### Créer la carte
 
@@ -150,7 +150,7 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 ## Voxélisation <a name="voxelisation"></a>
 
-A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#mcedit). Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
+A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#mcedit). Dans un premier temps, nous allons voir comment transformé un fichier .obj au format schematic.
 
 ### vox_package 
 
@@ -176,11 +176,11 @@ Pour lancer une voxélisation simple, la commande suivante doit être lancée de
 
 La commande se lance, le fichier .obj est parcouru : 
 
-[<img width="400" alt="binvox" src="img/binvox.png">]
+<img width="400" alt="binvox" src="img/binvox.png">
 
 En fonction de la taille, cela peut être plus ou moins long (plus de 25 min dans le cas du fichier Poleymieux terrain complet), dans le cas d'un petit fichier, à la fin du traitement nous apercevons furtivement le résultat du traitement :
 
-[<img width="250" alt="binvox" src="img/fin_binvox.png">]
+<img width="250" alt="binvox" src="img/fin_binvox.png">
 
 La commande a créé un fichier binvox qu'il est possible de voir avec viewvox en lançant la commande : 
 
@@ -188,7 +188,7 @@ La commande a créé un fichier binvox qu'il est possible de voir avec viewvox e
 
 La visionneuse se présente ainsi : 
 
-[<img width = "250" alt ="viewvox" src="img/viewvox.png">]
+<img width = "250" alt ="viewvox" src="img/viewvox.png">
 
 Nous pouvons voir qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
 
@@ -204,9 +204,9 @@ Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft i
 
 -----------------------
 
-## Import_de_fichiers_schematic_avec_MCEdit <a name="mcedit"></a>
+## Import de fichiers schematic avec MCEdit <a name="mcedit"></a>
 
-MC Edit est un editeur pour monde minecraft : [MCEdit](http://www.mcedit.net/)
+MC Edit est un éditeur pour monde minecraft : [MCEdit](http://www.mcedit.net/)
 
 Il permet de modifier un monde déjà existant dans Minecraft
 
@@ -238,7 +238,7 @@ Voici le résultat dans Minecraft :
 Comme nous pouvons le voir sur la dernière image de la section [Worldpainter](#worldpainter) où la hauteur de la colline de Fourvière est à l'échelle 1:1, cette dernière parait alors complétement disproportionnée. 
 Pour allier l'ensemble des outils présenté dans ce tutoriel, dans l'objectif de représenter un bout de notre monde réel, il faut bien préparer les différents éléments en définissant le bon niveau de détails, la bonne échelle, les bonnes coordonnées relatives au jeu.
 
-* Le projet Minecraft à la carte de l'IGN à donner lieu à un concour porté par le ministère de la cohésion des territoires et des relations avec les collectivités territoriales : [Concours Minecraft ALAC](http://www.cohesion-territoires.gouv.fr/jeu-concours-minecraft-cree-ta-ville-et-ton-territoire-de-demain)
+* Le projet Minecraft à la carte de l'IGN a donné lieu à un concours porté par le ministère de la cohésion des territoires et des relations avec les collectivités territoriales : [Concours Minecraft ALAC](http://www.cohesion-territoires.gouv.fr/jeu-concours-minecraft-cree-ta-ville-et-ton-territoire-de-demain)
 
 * Il existe un projet qui a commencé en 2020 avec comme objectif de recréer la Terre entière à l'échelle 1:1 : [Projet BuildTheEarth](https://buildtheearth.net/)
 
@@ -256,5 +256,3 @@ Tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikideb
 [Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
 
 Générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
-
-à suivre
