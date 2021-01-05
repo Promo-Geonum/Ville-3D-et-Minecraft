@@ -99,7 +99,7 @@ Une fois cette fenêtre ouverte, il faut ouvrir son MNT et paramétrer l'import 
 Les paramètres d'import des MNT ne permettent pas de rendre le résultat correct, il faut alors utiliser les outils de "dessin" qu'offre World painter pour régler certains problème comme la gestion du niveau d'eau.
 
 Une fois que le résultat est satisfaisant, il faut alors exporter le rendu
-<img width="100" alt="ExportWP_Bouton" src="ExportWP_Bouton.PNG">
+<img width="100" alt="ExportWP_Bouton" src="img/ExportWP_Bouton.PNG">
 
 Pour paramétrer l'export, il faut d'abord lui donner un nom (Ce sera le nom du monde à ouvrir dans le jeu Minecraft). Il faut ensuite sélectionner les tuiles (Tiles) à exporter.
 
