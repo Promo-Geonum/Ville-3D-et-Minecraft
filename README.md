@@ -9,21 +9,21 @@ Nous allons ici en passer quelques unes en revue.
 
 Cliquer sur les liens ci-dessous pour accéder à la section
 
-[Minecraft](#minecraft_carte)
+[Minecraft](#Minecraft_a_la carte)
 
-[Worldpainter](#worldpainter)
+[Worldpainter](#Worldpainter)
 
-[Tinkercad](#tinkercad)
+[Tinkercad](#Tinkercad)
 
-[Voxélisation](#voxelisation)
+[Voxélisation](#Voxélisation)
 
-[MCEdit](#mcedit)
+[MCEdit](#Import_de_fichiers_schematic_avec_MCEdit)
 
-[Bibliographie](#bibliographie)
+[Bibliographie](#Bibliographie)
 
 -----------------
 
-## Minecraft_a_la carte <a name="minecraft_carte"></a>
+## Minecraft_a_la carte
 
 ### Site de l'IGN
 
@@ -80,7 +80,7 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 -----------------
 
-## Worldpainter <a name="worldpainter"></a>
+## Worldpainter
 
 World painter est un logiciel de génération de monde minecraft. Il se présente comme un outil permettant de "dessiner son monde" comme sur Paint.
 
@@ -94,9 +94,22 @@ World painter permet notamment d'importer des images laissant ainsi la possibili
 
 Une fois cette fenêtre ouverte, il faut ouvrir son MNT et paramétrer l'import dans World painter, en jouant sur l'échelle (Scale : à 100% par défaut ce qui signifie 1 pixel de l'image du MNT = 1 cube dans le jeu) et également sur le niveau de l'eau (Water Level)
 
+<img width="500" alt="HeightMapLyon_WorldPainter" src="img/HeightMapLyon_WorldPainter.PNG">
+
+Les paramètres d'import des MNT ne permettent pas de rendre le résultat correct, il faut alors utiliser les outils de "dessin" qu'offre World painter pour régler certains problème comme la gestion du niveau d'eau.
+
+Une fois que le résultat est satisfaisant, il faut alors exporter le rendu
+<img width="100" alt="ExportWP_Bouton" src="ExportWP_Bouton.PNG">
+
+Pour paramétrer l'export, il faut d'abord lui donner un nom (Ce sera le nom du monde à ouvrir dans le jeu Minecraft). Il faut ensuite sélectionner les tuiles (Tiles) à exporter.
+
+<img width="500" alt="ExportWP" src="img/ExportWP.PNG">
+
+Il est important de ne pas modifier le chemin d'enregistrement de l'export, il est paramétré par défaut pour s'exporter au bon endroit.
+
 -----------------
 
-## Tinkercad <a name="tinkercad"></a>
+## Tinkercad
 
 Tinkercad est un logiciel en SAAS édité par Autodesk qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
 
@@ -110,14 +123,14 @@ Tinkercad permet de visualiser le résultat de la modélisation transformé en b
 
 <img width ="125" alt="tinkercad_bloc" src = "img/tinkercad_bloc.png">
 
-Le résultat est le suivant : 
+Le résultats est le suivant : 
 
 <img width ="500" alt="tinkercad_briques" src = "img/tinkercad_briques.png">
 
 Il est possible de choisir le détail de la modélisation avec plus ou moins de bloc, donc plus ou moins de précision dans la représentation du bâtiment.
 
 Une fois la construction du modèle 3d réalisé, il faut exporter le bâtiment au format voulu. Quand l'utilisateur est dans le mode conception 3d, il peut choisir plusieurs formats d'exports dont *.obj* et *.svg* ou choisir directement un modèle d'imprimante 3d.
-Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#mcedit).
+Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#Import_de_fichiers_schematic_avec_MCEdit).
 
 <img width ="250" alt="tinkercad_export" src = "img/tinkercad_export.png">
 
@@ -127,9 +140,9 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 -----------------
 
-## Voxélisation <a name="voxelisation"></a>
+## Voxélisation
 
-A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#mcedit). Dans un premier temps, nous allons voir comment transformer un fichier .obj au format schematic.
+A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus bas. Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
 
 ### vox_package 
 
@@ -169,9 +182,9 @@ La visionneuse se présente ainsi :
 
 [<img width = "250" alt ="viewvox" src="img/viewvox.png">]
 
-Nous pouvons voir qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
+Nous pouvons qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
 
-Ces deux opérations permettent d'affiner la voxélisation, en effet il y a plusieurs paramètres sur lesquels il est possible de jouer, notamment sur le nombre de cubes générés ce qui déterminera la finesse de la figure finale. Ces paramètres sont détaillés dans le wiki cité ci-dessus.
+Ces deux opérations permettent d'affiner la voxélisation, en effet il y a plusieurs paramètres sur lesquels il est possible de jouer, notamment sur le nombre de cube générés ce qui déterminera la finesse de la figure finale. Ces paramètres sont détaillés dans le wiki cité ci-dessus.
 
 Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le fichier .schematic avec la commande suivante :
 
@@ -179,25 +192,26 @@ Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le
 
 Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
 
-Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#mcedit)
+Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import_de_fichiers_schematic_avec_MCEdit)
 
 -----------------------
 
-## Import_de_fichiers_schematic_avec_MCEdit <a name="mcedit"></a>
+## Import_de_fichiers_schematic_avec_MCEdit
 
-## Bibliographie <a name="bibliographie"></a>
+## Bibliographie
 
 [minecraft à la carte](https://minecraft.ign.fr/#)
+
 
 Pour pouvoir utiliser minecraft à la carte il faut bien faire attention à la version que ce soit pour minecraft ou minetest.
 La version supportée de minetest est disponible ici : [minetest_04.16](https://github.com/minetest/minetest/releases/tag/0.4.16)
 
 Une autre possibilité semble exister pour minetest : [cartOSM](https://framagit.org/marpa/cartosm-ign)
 
-Tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
+tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
 
 [Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
 
-Générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
+générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
 
 à suivre
