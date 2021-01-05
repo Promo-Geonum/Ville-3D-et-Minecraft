@@ -9,21 +9,21 @@ Nous allons ici en passer quelques unes en revue.
 
 Cliquer sur les liens ci-dessous pour accéder à la section
 
-[Minecraft](#Minecraft_a_la carte)
+[Minecraft](#minecraft_carte)
 
-[Worldpainter](#Worldpainter)
+[Worldpainter](#worldpainter)
 
-[Tinkercad](#Tinkercad)
+[Tinkercad](#tinkercad)
 
-[Voxélisation](#Voxélisation)
+[Voxélisation](#voxelisation)
 
-[MCEdit](#Import_de_fichiers_schematic_avec_MCEdit)
+[MCEdit](#mcedit)
 
-[Bibliographie](#Bibliographie)
+[Bibliographie](#bibliographie)
 
 -----------------
 
-## Minecraft_a_la carte
+## Minecraft_a_la carte <a name="minecraft_carte"></a>
 
 ### Site de l'IGN
 
@@ -80,7 +80,7 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 -----------------
 
-## Worldpainter
+## Worldpainter <a name="worldpainter"></a>
 
 World painter est un logiciel de génération de monde minecraft. Il se présente comme un outil permettant de "dessiner son monde" comme sur Paint.
 
@@ -93,9 +93,10 @@ World painter permet notamment d'importer des images laissant ainsi la possibili
 <img width="500" alt="ImportHeightMapWP" src="img/ImportHeightMapWP.PNG">
 
 Une fois cette fenêtre ouverte, il faut ouvrir son MNT et paramétrer l'import dans World painter, en jouant sur l'échelle (Scale : à 100% par défaut ce qui signifie 1 pixel de l'image du MNT = 1 cube dans le jeu) et également sur le niveau de l'eau (Water Level)
+
 -----------------
 
-## Tinkercad
+## Tinkercad <a name="tinkercad"></a>
 
 Tinkercad est un logiciel en SAAS édité par Autodesk qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
 
@@ -126,7 +127,7 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 -----------------
 
-## Voxélisation
+## Voxélisation <a name="voxelisation"></a>
 
 A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#Import_de_fichiers_schematic_avec_MCEdit). Dans un premier temps, nous allons voir comment transformer un fichier .obj au format schematic.
 
@@ -182,9 +183,9 @@ Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft i
 
 -----------------------
 
-## Import_de_fichiers_schematic_avec_MCEdit
+## Import_de_fichiers_schematic_avec_MCEdit <a name="mcedit"></a>
 
-## Bibliographie
+## Bibliographie <a name="bibliographie"></a>
 
 [minecraft à la carte](https://minecraft.ign.fr/#)
 
