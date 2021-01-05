@@ -228,7 +228,7 @@ Pour importer réellement notre objet dans le monde minecraft choisi, il faut cl
 
 Voici le résultat dans Minecraft :
 
-<img width="500" alt="ChevalierImportMinecraft" src="img/ChevalierImportMinecraft.PNG">
+<img width="500" alt="ChevalierImportMinecraft" src="img/ChevalierImportMinecraft.png">
 
 ## Bibliographie <a name="bibliographie"></a>
 
