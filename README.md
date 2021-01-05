@@ -234,16 +234,13 @@ Voici le résultat dans Minecraft :
 
 ## Informations Complémentaires <a name="EnPlus"></a>
 
-Minecraft est un jeu qui est limité en hauteur, la limite actuelle est fixé à 256 blocs, ce qui rend impossible la représentation à l'échelle 1:1 tout objet géographique dépassant 256 mètres de haut.
+* Minecraft est un jeu qui est limité en hauteur, la limite actuelle est fixé à 256 blocs, ce qui rend impossible la représentation à l'échelle 1:1 tout objet géographique dépassant 256 mètres de haut.
 Comme nous pouvons le voir sur la dernière image de la section [Worldpainter](#worldpainter) où la hauteur de la colline de Fourvière est à l'échelle 1:1, cette dernière parait alors complétement disproportionnée. 
 Pour allier l'ensemble des outils présenté dans ce tutoriel, dans l'objectif de représenter un bout de notre monde réel, il faut bien préparer les différents éléments en définissant le bon niveau de détails, la bonne échelle, les bonnes coordonnées relatives au jeu.
 
+* Le projet Minecraft à la carte de l'IGN à donner lieu à un concour porté par le ministère de la cohésion des territoires et des relations avec les collectivités territoriales : [Concours Minecraft ALAC](http://www.cohesion-territoires.gouv.fr/jeu-concours-minecraft-cree-ta-ville-et-ton-territoire-de-demain)
 
-Le projet Minecraft à la carte de l'IGN à donner lieu à un concour porté par le ministère de la cohésion des territoires et des relations avec les collectivités territoriales : [Concours Minecraft ALAC](http://www.cohesion-territoires.gouv.fr/jeu-concours-minecraft-cree-ta-ville-et-ton-territoire-de-demain)
-
-
-Il existe un projet qui a commencé en 2020 avec comme objectif de recréer la Terre entière à l'échelle 1:1 : [Projet BuildTheEarth](https://buildtheearth.net/)
-
+* Il existe un projet qui a commencé en 2020 avec comme objectif de recréer la Terre entière à l'échelle 1:1 : [Projet BuildTheEarth](https://buildtheearth.net/)
 
 ## Bibliographie <a name="bibliographie"></a>
 
