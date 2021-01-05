@@ -113,7 +113,7 @@ Il est important de ne pas modifier le chemin d'enregistrement de l'export, il e
 
 Le résultat dans Minecraft :
 
-<img width="500" alt="WorldPainterFourviere" src="img/WorldPainterFourviere.png">
+<img width="500" alt="WorldPainterFourvière" src="img/WorldPainterFourvière.png">
 
 -----------------
 
