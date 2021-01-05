@@ -9,21 +9,21 @@ Nous allons ici en passer quelques unes en revue.
 
 Cliquer sur les liens ci-dessous pour accéder à la section
 
-[Minecraft](#Minecraft_a_la carte)
+[Minecraft](#minecraft_carte)
 
-[Worldpainter](#Worldpainter)
+[Worldpainter](#worldpainter)
 
-[Tinkercad](#Tinkercad)
+[Tinkercad](#tinkercad)
 
-[Voxélisation](#Voxélisation)
+[Voxélisation](#voxelisation)
 
-[MCEdit](#Import_de_fichiers_schematic_avec_MCEdit)
+[MCEdit](#mcedit)
 
-[Bibliographie](#Bibliographie)
+[Bibliographie](#bibliographie)
 
 -----------------
 
-## Minecraft_a_la carte
+## Minecraft_a_la carte <a name="minecraft_carte"></a>
 
 ### Site de l'IGN
 
@@ -80,7 +80,7 @@ Démonstration sur Minecraft par Lubin avec une carte de Lyon.
 
 -----------------
 
-## Worldpainter
+## Worldpainter <a name="worldpainter"></a>
 
 World painter est un logiciel de génération de monde minecraft. Il se présente comme un outil permettant de "dessiner son monde" comme sur Paint.
 
@@ -109,7 +109,7 @@ Il est important de ne pas modifier le chemin d'enregistrement de l'export, il e
 
 -----------------
 
-## Tinkercad
+## Tinkercad <a name="tinkercad"></a>
 
 Tinkercad est un logiciel en SAAS édité par Autodesk qui permet de créer gratuitement des objets en 3d pour de l'impression en 3D ou pour les exporter dans divers formats.
 
@@ -123,14 +123,14 @@ Tinkercad permet de visualiser le résultat de la modélisation transformé en b
 
 <img width ="125" alt="tinkercad_bloc" src = "img/tinkercad_bloc.png">
 
-Le résultats est le suivant : 
+Le résultat est le suivant : 
 
 <img width ="500" alt="tinkercad_briques" src = "img/tinkercad_briques.png">
 
 Il est possible de choisir le détail de la modélisation avec plus ou moins de bloc, donc plus ou moins de précision dans la représentation du bâtiment.
 
 Une fois la construction du modèle 3d réalisé, il faut exporter le bâtiment au format voulu. Quand l'utilisateur est dans le mode conception 3d, il peut choisir plusieurs formats d'exports dont *.obj* et *.svg* ou choisir directement un modèle d'imprimante 3d.
-Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#Import_de_fichiers_schematic_avec_MCEdit).
+Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#mcedit).
 
 <img width ="250" alt="tinkercad_export" src = "img/tinkercad_export.png">
 
@@ -140,9 +140,9 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 -----------------
 
-## Voxélisation
+## Voxélisation <a name="voxelisation"></a>
 
-A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus bas. Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
+A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#mcedit). Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
 
 ### vox_package 
 
@@ -182,7 +182,7 @@ La visionneuse se présente ainsi :
 
 [<img width = "250" alt ="viewvox" src="img/viewvox.png">]
 
-Nous pouvons qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
+Nous pouvons voir qu'elle est assez rudimentaire mais cependant suffisante pour voir le résultat. Les contrôles de zoom sont détaillés sur le [wiki](https://minecraft.gamepedia.com/Programs_and_editors/Binvox).
 
 Ces deux opérations permettent d'affiner la voxélisation, en effet il y a plusieurs paramètres sur lesquels il est possible de jouer, notamment sur le nombre de cube générés ce qui déterminera la finesse de la figure finale. Ces paramètres sont détaillés dans le wiki cité ci-dessus.
 
@@ -192,26 +192,25 @@ Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le
 
 Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
 
-Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import_de_fichiers_schematic_avec_MCEdit)
+Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#mcedit)
 
 -----------------------
 
-## Import_de_fichiers_schematic_avec_MCEdit
+## Import_de_fichiers_schematic_avec_MCEdit <a name="mcedit"></a>
 
-## Bibliographie
+## Bibliographie <a name="bibliographie"></a>
 
 [minecraft à la carte](https://minecraft.ign.fr/#)
-
 
 Pour pouvoir utiliser minecraft à la carte il faut bien faire attention à la version que ce soit pour minecraft ou minetest.
 La version supportée de minetest est disponible ici : [minetest_04.16](https://github.com/minetest/minetest/releases/tag/0.4.16)
 
 Une autre possibilité semble exister pour minetest : [cartOSM](https://framagit.org/marpa/cartosm-ign)
 
-tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
+Tutoriel d'utilisation de minecraft à la carte : [tutoriel](https://www.wikidebrouillard.org/wiki/Ma_ville_bloc_par_bloc_-_reconstruire_sa_ville_avec_Minecraft_ou_Minetest)
 
 [Génération de carte Minecraft avec WorldPainter](https://www.minecraftforum.net/forums/archive/tutorials/930401-mapping-using-real-world-terrain-data)
 
-générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
+Générer des bâtiments 3d avec [tinkercad](https://square.banq.qc.ca/projets/tutoriel-transfert-dun-modele-3d-vers-minecraft/)
 
 à suivre
