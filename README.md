@@ -109,7 +109,7 @@ Tinkercad permet de visualiser le résultat de la modélisation transformé en b
 
 <img width ="125" alt="tinkercad_bloc" src = "img/tinkercad_bloc.png">
 
-Le résultats est le suivant : 
+Le résultat est le suivant : 
 
 <img width ="500" alt="tinkercad_briques" src = "img/tinkercad_briques.png">
 
