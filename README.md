@@ -235,11 +235,7 @@ Voici le résultat dans Minecraft :
 ## Informations Complémentaires <a name="EnPlus"></a>
 
 Minecraft est un jeu qui est limité en hauteur, la limite actuelle est fixé à 256 blocs, ce qui rend impossible la représentation à l'échelle 1:1 tout objet géographique dépassant 256 mètres de haut.
-
-Comme nous pouvons le voir sur cette image où la hauteur de la colline de Fourvière est à l'échelle 1:1, cette dernière parait disproportionnée :  
-
-<img width="500" alt="WorldPainterFourviere" src="img/WorldPainterFourviere.png">
-
+Comme nous pouvons le voir sur la dernière image de la section [Worldpainter](#worldpainter) où la hauteur de la colline de Fourvière est à l'échelle 1:1, cette dernière parait alors complétement disproportionnée. 
 Pour allier l'ensemble des outils présenté dans ce tutoriel, dans l'objectif de représenter un bout de notre monde réel, il faut bien préparer les différents éléments en définissant le bon niveau de détails, la bonne échelle, les bonnes coordonnées relatives au jeu.
 
 
