@@ -128,7 +128,7 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 ## Voxélisation
 
-A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus bas. Dans un premmier temps, nous allons voir comment transformé un fichier .obj au format schematic.
+A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#Import_de_fichiers_schematic_avec_MCEdit). Dans un premier temps, nous allons voir comment transformer un fichier .obj au format schematic.
 
 ### vox_package 
 
