@@ -117,7 +117,7 @@ Le résultat est le suivant :
 Il est possible de choisir le détail de la modélisation avec plus ou moins de bloc, donc plus ou moins de précision dans la représentation du bâtiment.
 
 Une fois la construction du modèle 3d réalisé, il faut exporter le bâtiment au format voulu. Quand l'utilisateur est dans le mode conception 3d, il peut choisir plusieurs formats d'exports dont *.obj* et *.svg* ou choisir directement un modèle d'imprimante 3d.
-Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#Import_de_fichiers_schematic_avec_MCEdit).
+Ce qui nous intéresse dans notre cas, c'est quand l'utilisateur est dans le mode bloc, quand il clique sur exporter le seul format d'export proposé est le *.schematic*, format que nous allons pouvoir exploiter avec Minecraft comme nous l'expliquons dans cette [section](#mcedit).
 
 <img width ="250" alt="tinkercad_export" src = "img/tinkercad_export.png">
 
@@ -129,7 +129,7 @@ Ce n'est cependant pas la seule solution et nous allons voir dans la section sui
 
 ## Voxélisation <a name="voxelisation"></a>
 
-A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#Import_de_fichiers_schematic_avec_MCEdit). Dans un premier temps, nous allons voir comment transformer un fichier .obj au format schematic.
+A partir d'un fichier .obj, il est assez facile de créer un fichier [schematic](https://www.minecraft-france.fr/tutoriel-les-schematics/) qui est un format d'échange de structure créé par la communauté de joueur minecraft. Ce type de format peut être chargé dans une carte grâce à MCedit que nous verrons plus [bas](#mcedit). Dans un premier temps, nous allons voir comment transformer un fichier .obj au format schematic.
 
 ### vox_package 
 
@@ -179,7 +179,7 @@ Enfin lorsque la figure correspond au rendu souhaité, il est temps de créer le
 
 Les paramètres sont bien évidemment ceux déterminés lors des essais précéedents, le seul paramètre qui va changer cette fois et celui du format d'export, c'est le paramètre -t qui permet de préciser que le format sera du schematic.
 
-Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#Import_de_fichiers_schematic_avec_MCEdit)
+Ainsi un fichier schematic est créé pour l'utiliser dans une carte minecraft il faut se reporter à la section [suivante](#mcedit)
 
 -----------------------
 
