@@ -9,7 +9,7 @@ Nous allons ici en passer quelques unes en revue.
 
 Cliquer sur les liens ci-dessous pour accéder à la section
 
-[Minecraft](#minecraft_carte)
+[Minecraft à la carte](#minecraft_carte)
 
 [Worldpainter](#worldpainter)
 
